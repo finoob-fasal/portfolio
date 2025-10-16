@@ -196,3 +196,97 @@
 .footdiv3 h3{
     color: rgb(20, 93, 156);
 }
+
+/*......about html.......*/
+
+.aboutskills{
+    color:#000000;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 350px;
+    width: 400px;
+    background-color: #525252;
+    border-radius: 8px;
+    align-content:center;
+}
+
+.aboutskills2{
+    color:#000000;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 350px;
+    width: 400px;
+    background-color: #525252;
+    border-radius: 10px;
+    align-content:center;
+}
+
+.aboutskillsmain{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+/*.......work html...........*/
+
+.work{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 600px;
+    padding: 50px;
+}
+
+.card1{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 300px;
+    width: 350px;
+    padding: 20px;
+    background-color: #525252;
+    border-radius: 10px;
+}
+.card2{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 300px;
+    width: 350px;
+    padding: 20px;
+    background-color: #525252;
+    border-radius: 10px;
+}
+.card3{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 300px;
+    width: 350px;
+    padding: 20px;
+    background-color: #525252;
+    border-radius: 10px;
+}
+.maincard1{
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+}
+
+.card4{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 300px;
+    width: 350px;
+    padding: 20px;
+    background-color: #525252;
+    border-radius: 10px;
+}
+.card5{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 300px;
+    width: 350px;
+    padding: 20px;
+    background-color: #525252;
+    border-radius: 10px;
+}
+.maincard2{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 10px;
+}
