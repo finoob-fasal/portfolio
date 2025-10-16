@@ -1,0 +1,198 @@
+*{margin: 0%;}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    height: 60px;
+    padding: 8px;
+}
+
+.navlink{
+    position: relative;
+    width: 400px;
+    height: 50px;
+    background: #222;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navlink a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+}
+
+.navlink span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95px;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(1, 36, 66), rgb(67, 160, 242));
+    border-radius: 8px;
+    transition: 1s;
+}
+
+.navlink a:nth-child(1):hover~span{
+    left: 0px;
+}
+.navlink a:nth-child(2):hover~span{
+    left: 95px;
+}
+.navlink a:nth-child(3):hover~span{
+    left: 189px;
+    width: 110px;
+}
+.navlink a:nth-child(4):hover~span{
+    left: 289px;
+    width: 115px;
+}
+
+.a:nth-child(4){
+    position: relative;
+}
+.dropcontent{
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+.a:nth-child(4):hover .dropcontent{
+    display: block;
+} 
+ /* ....................................................... */
+.photo{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.image{
+    height:500px;
+}                                                       
+.imgtext span{
+    position: absolute;
+    display: inline-block;
+    color: rgb(20, 93, 156);
+    left: 25%;
+    top: 55%;
+    font-size: 100px;
+    font-family:fantasy;
+    animation: bounce 0.9s ease infinite alternate;
+    text-shadow:0 1px 0 rgb(20, 93, 156),
+    0 2px 0 rgb(20, 93, 156),
+    0 3px 0 rgb(20, 93, 156),
+    0 4px 0 rgb(20, 93, 156),
+    0 5px 0 rgb(20, 93, 156),
+    0 6px 0 transparent,
+    0 7px 0 transparent,
+    0 8px 0 transparent,
+    0 9px 0 transparent,
+    0 10px 10px rgb(0, 0, 0);
+}
+.imgtext span:nth-child(1){
+    animation-delay: .1s;
+}.imgtext span:nth-child(2){
+    animation-delay: .2s;
+    left: 370px;
+}.imgtext span:nth-child(3){
+    animation-delay: .3s;
+    left: 410px;
+}.imgtext span:nth-child(4){
+    animation-delay: .4s;
+    left: 470px;
+}.imgtext span:nth-child(5){
+    animation-delay: .5s;
+    left: 530px;
+}.imgtext span:nth-child(6){
+    animation-delay: .6s;
+    left: 590px;
+}.imgtext span:nth-child(7){
+    animation-delay: .7s;
+    left: 680px;
+}.imgtext span:nth-child(8){
+    animation-delay: .8s;
+    left: 730px;
+}.imgtext span:nth-child(9){
+    animation-delay: .9s;
+    left: 790px;
+}.imgtext span:nth-child(10){
+    animation-delay: 1s;
+    left: 850px;
+}.imgtext span:nth-child(11){
+    animation-delay: 1.1s;
+    left: 910px;
+}
+@keyframes bounce{
+    100%{
+        transform: translateY(-20px);
+    }
+}
+
+
+.imgtext2{
+    position: absolute;
+    color: rgb(20, 93, 156);
+    left: 40%;
+    top: 80%;
+    font-size: 20px;
+    font-family:cursive;
+}
+
+/* ....................about......................... */
+.aboutme{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+.abtext{
+    color: aliceblue;
+    width: 500px;
+    align-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.abimage{
+    height:500px;
+    width: 500px;
+}
+/* ....................................... */
+
+.footer{
+    height: 200px;
+    color: aliceblue;
+    padding: 15px;
+    align-content: center;
+    background-color: rgb(36, 36, 36);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.maindiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footdiv2 a{
+    color: white;
+    text-decoration: none;    
+}
+.footdiv2{
+    color:rgb(20, 93, 156) ;
+}
+
+.footdiv1 h3{
+    color: rgb(20, 93, 156);
+}
+.footdiv3 h3{
+    color: rgb(20, 93, 156);
+}
